@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sphinx Docs Project &mdash; Weekly-Report 2023 documentation</title>
+      <link rel="stylesheet" href="static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="static/documentation_options.js"></script>
+        <script src="static/jquery.js"></script>
+        <script src="static/underscore.js"></script>
+        <script src="static/doctools.js"></script>
+    <script src="static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Issue Installation" href="issue-installation.html" />
+    <link rel="prev" title="Testing MoilApp" href="testing-moilapp.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Weekly-Report
+          </a>
+              <div class="version">
+                public
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="autodoc.html">Weekly Report</a></li>
+<li class="toctree-l1"><a class="reference internal" href="git-ssh.html">Clone using git SSH</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="git-ssh.html#configuration-ssh">Configuration SSH</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git-ssh.html#open-setting-your-github">Open Setting Your GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git-ssh.html#create-ssh-keys">Create SSH Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git-ssh.html#clone-repository">Clone Repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="git-ssh.html#check-result-clone-in-dir">Check result clone in dir</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dashcam-ducomentation.html">Installation Dashcam</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dashcam-ducomentation.html#open-mcutoil-github">Open McutOIL GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashcam-ducomentation.html#open-pycharm">Open PyCharm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashcam-ducomentation.html#create-virtual-environment">Create Virtual Environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashcam-ducomentation.html#setting-interpreter-on-pycharm">Setting Interpreter on PyCharm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashcam-ducomentation.html#run-program">Run Program</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dashcam-ducomentation.html#user-operation">user operation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="moilutils-template.html">MoilUtils Template</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="moilutils-template.html#structure-development-apps">Structure Development Apps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="moilutils-template.html#design-user-interface">Design User Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="moilutils-template.html#developing-using-pycharm">Developing using PyCharm</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="dev-apps.html">Develop applications</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="dev-apps.html#design-user-interface">Design User Interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dev-apps.html#add-an-icon-on-moilapp-plugin">Add an Icon on Moilapp Plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dev-apps.html#show-hello-world-application">Show Hello World application</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="testing-moilapp.html">Testing MoilApp</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="testing-moilapp.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing-moilapp.html#appendix-issue">Appendix Issue</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Sphinx Docs Project</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#pre-request">Pre-request</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#docsting-format">Docsting Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install-sphinx">Install Sphinx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#create-docs-folder">Create Docs Folder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configuration-file">Configuration File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modify-index-rst-file">Modify index.rst file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#build-the-html">Build the HTML</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#open-the-pages">Open the pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#convert-to-pdf">Convert to PDF</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="issue-installation.html">Issue Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="issue-installation.html#wayland-type-computer">Wayland type computer</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Weekly-Report</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Sphinx Docs Project</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/McutOIL/project-documentation-template/blob/main/docs/create-sphinx.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="sphinx-docs-project">
+<h1>Sphinx Docs Project<a class="headerlink" href="#sphinx-docs-project" title="Permalink to this headline"></a></h1>
+<section id="pre-request">
+<h2>Pre-request<a class="headerlink" href="#pre-request" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>Install PyCharm IDE (optional)</p></li>
+<li><p>Ubuntu OS (optional)</p></li>
+<li><p>Make a beautiful Docstring in your code</p></li>
+</ul>
+</section>
+<section id="docsting-format">
+<h2>Docsting Format<a class="headerlink" href="#docsting-format" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>We must synchronize the docstring format is use google.</p></li>
+<li><p>See image beside to make sure you’re use the same format.</p></li>
+</ul>
+<figure class="align-center" id="id1">
+<a class="reference internal image-reference" href="images/1e.png"><img alt="alternate text" src="images/1e.png" style="width: 567.0px; height: 405.90000000000003px;" /></a>
+<figcaption>
+<p><span class="caption-text">google format</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="install-sphinx">
+<h2>Install Sphinx<a class="headerlink" href="#install-sphinx" title="Permalink to this headline"></a></h2>
+<p>Install sphinx from pypi distribution using command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ pip install -U sphinx sphinx-rtd-theme
+</pre></div>
+</div>
+<figure class="align-center" id="id2">
+<a class="reference internal image-reference" href="images/2e.png"><img alt="alternate text" src="images/2e.png" style="width: 850.5px; height: 235.5px;" /></a>
+<figcaption>
+<p><span class="caption-text">sphinx-rtd-theme package</span><a class="headerlink" href="#id2" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="create-docs-folder">
+<h2>Create Docs Folder<a class="headerlink" href="#create-docs-folder" title="Permalink to this headline"></a></h2>
+<p>You have to create docs folder inside your project directory.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ mkdir docs
+</pre></div>
+</div>
+<p>Change working directory to “docs” folder</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">cd</span> docs
+</pre></div>
+</div>
+<p>Getting started</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sphinx-quickstart
+</pre></div>
+</div>
+<figure class="align-center" id="id3">
+<a class="reference internal image-reference" href="images/3e.png"><img alt="alternate text" src="images/3e.png" style="width: 664.8000000000001px; height: 324.0px;" /></a>
+<figcaption>
+<p><span class="caption-text">command create sphinx-quickstart</span><a class="headerlink" href="#id3" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-center" id="id4">
+<a class="reference internal image-reference" href="images/4e.png"><img alt="alternate text" src="images/4e.png" style="width: 654.3000000000001px; height: 259.2px;" /></a>
+<figcaption>
+<p><span class="caption-text">check docs directory</span><a class="headerlink" href="#id4" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="configuration-file">
+<h2>Configuration File<a class="headerlink" href="#configuration-file" title="Permalink to this headline"></a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">extensions</span> <span class="o">=[</span>
+        <span class="s2">&quot;sphinx.ext.autodoc&quot;</span>,
+        <span class="s2">&quot;sphinx.ext.viewcode&quot;</span>,
+        <span class="s2">&quot;sphinx.ext.napoleon&quot;</span>,
+        <span class="o">]</span>
+</pre></div>
+</div>
+<p>You have to modify the config.py inside the folder source. Then follow the modication like shown bellow:​</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ import os
+
+$ import sys
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Change the theme</p></li>
+</ul>
+<figure class="align-center" id="id5">
+<a class="reference internal image-reference" href="images/5e.png"><img alt="alternate text" src="images/5e.png" style="width: 899.2px; height: 265.6px;" /></a>
+<figcaption>
+<p><span class="caption-text">change the theme</span><a class="headerlink" href="#id5" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+<ul class="simple">
+<li><p>Add this configuration in the end of conf.py file:</p></li>
+</ul>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">autoclass_content</span> <span class="o">=</span> <span class="s1">&#39;both&#39;</span>
+
+<span class="nv">autodoc_mock_imports</span> <span class="o">=</span> <span class="o">[]</span>
+
+<span class="nv">html_show_sourcelink</span> <span class="o">=</span> False
+<span class="nv">autodoc_default_flags</span> <span class="o">=</span> <span class="o">[</span><span class="s1">&#39;members&#39;</span><span class="o">]</span>
+<span class="nv">autodoc_member_order</span> <span class="o">=</span> <span class="s1">&#39;bysource&#39;</span>
+<span class="nv">autodoc_default_options</span> <span class="o">=</span> <span class="o">{</span>
+    <span class="s1">&#39;undoc-members&#39;</span>: True,<span class="o">}</span>
+</pre></div>
+</div>
+<figure class="align-center" id="id6">
+<a class="reference internal image-reference" href="images/6e.png"><img alt="alternate text" src="images/6e.png" style="width: 335.20000000000005px; height: 344.0px;" /></a>
+<figcaption>
+<p><span class="caption-text">config file</span><a class="headerlink" href="#id6" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="modify-index-rst-file">
+<h2>Modify index.rst file<a class="headerlink" href="#modify-index-rst-file" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>After the configuration finish, he next is modification the index.rst file. Below is the example (modify as your requirement):​</p></li>
+<li><p>And then, suppose you want to generate a path for your code, you can type this command:​</p></li>
+</ul>
+<figure class="align-center" id="id7">
+<a class="reference internal image-reference" href="images/7e.png"><img alt="alternate text" src="images/7e.png" style="width: 775.2px; height: 284.8px;" /></a>
+<figcaption>
+<p><span class="caption-text">index rst file</span><a class="headerlink" href="#id7" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="build-the-html">
+<h2>Build the HTML<a class="headerlink" href="#build-the-html" title="Permalink to this headline"></a></h2>
+<p>Once’s you finish the configuration, the you will be able to build the html pages using this command:​</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ make html
+
+$ make clean <span class="o">(</span>Revome cached<span class="o">)</span>
+</pre></div>
+</div>
+<figure class="align-center" id="id8">
+<a class="reference internal image-reference" href="images/8e.png"><img alt="alternate text" src="images/8e.png" style="width: 502.40000000000003px; height: 266.40000000000003px;" /></a>
+<figcaption>
+<p><span class="caption-text">build documents</span><a class="headerlink" href="#id8" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="open-the-pages">
+<h2>Open the pages<a class="headerlink" href="#open-the-pages" title="Permalink to this headline"></a></h2>
+<p>The html file will be stored inside folder build/html/index.html Open it using your browser or Typing this command</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ google-chrome build/html/index.html
+</pre></div>
+</div>
+<figure class="align-center" id="id9">
+<a class="reference internal image-reference" href="images/9e.png"><img alt="alternate text" src="images/9e.png" style="width: 254.4px; height: 376.0px;" /></a>
+<figcaption>
+<p><span class="caption-text">html pages</span><a class="headerlink" href="#id9" title="Permalink to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+<section id="convert-to-pdf">
+<h2>Convert to PDF<a class="headerlink" href="#convert-to-pdf" title="Permalink to this headline"></a></h2>
+<p>Once you create the docs and success to build the HTML file, you also will be able to make a PDF file, the way is you just need to install the application following the command line bellow:​</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo apt-get install texlive-full
+
+$ make latexpdf
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="testing-moilapp.html" class="btn btn-neutral float-left" title="Testing MoilApp" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="issue-installation.html" class="btn btn-neutral float-right" title="Issue Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Perseverance Technology. Taiwan.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: public
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+      
+      <dl>
+        <dt>Languages</dt>
+        
+           <strong> 
+          <dd><a href="//en/public/">en</a></dd>
+           </strong> 
+        
+          
+          <dd><a href="//id/public/">id</a></dd>
+          
+        
+          
+          <dd><a href="//ch/public/">ch</a></dd>
+          
+        
+      </dl>
+      
+      
+      <dl>
+        <dt>Versions</dt>
+        
+          
+          <dd><a href="//en/main/">main</a></dd>
+          
+        
+           <strong> 
+          <dd><a href="//en/public/">public</a></dd>
+           </strong> 
+        
+      </dl>
+      
+      
+      <dl>
+        <dt>Downloads</dt>
+        
+          <dd><a href="//en/public/Weekly-Report-docs_en_public.pdf">pdf</a></dd>
+        
+          <dd><a href="//en/public/Weekly-Report-docs_en_public.epub">epub</a></dd>
+        
+      </dl>
+      
+      
+      <hr/>
+       This template writen by Haryanto and hosting provided by <a href="https://pages.github.com/">GitHub Pages</a>.
+    </div>
+  </div>
+<script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
