@@ -70,7 +70,7 @@ latex_elements = {}
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'MyProject.tex', 'MyProject Documentation',
+    (master_doc, 'Heru-docs.tex', 'Weekly-Report!!!',
      'Heru-sp', 'manual'),
 ]
 
@@ -78,7 +78,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'MyProject', 'MyProject Documentation',
+    (master_doc, 'Heru-docs', 'Weekly-Report!!!',
      [author], 1)
 ]
 

@@ -1,42 +1,49 @@
 Issue Installation
 ##################
 
-wayland type computer
+Wayland type computer
 =====================
+
+.. figure:: assets/1f.png
+   :scale: 80 %
+   :alt: alternate text
+   :align: center
+
+   Problem found
 
 - Check screen layer type (linux security)
 
-.. figure:: assets/
-   :scale: 80 %
+.. figure:: assets/2f.png
+   :scale: 100 %
    :alt: alternate text
    :align: center
 
-  echo $XDG_SESSION_TYPE
+   Echo $XDG_SESSION_TYPE
 
 - Change configuration screen
 
-.. figure:: assets/
-   :scale: 80 %
+.. figure:: assets/3f.png
+   :scale: 100 %
    :alt: alternate text
    :align: center
 
-  sudo nano /etc/gdm3/custom.conf
+   Sudo nano /etc/gdm3/custom.conf
 
-.. figure:: assets/
-   :scale: 80 %
+.. figure:: assets/4f.png
+   :scale: 90 %
    :alt: alternate text
    :align: center
 
-  enable configuration
+   Enable configuration
 
 - Restart our computer
 
-.. figure:: assets/
+.. figure:: assets/5f.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  sudo systemctl restart gdm3
+   Sudo systemctl restart gdm3
 
 
 

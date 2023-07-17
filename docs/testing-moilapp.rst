@@ -4,61 +4,61 @@ Testing MoilApp
 Introduction
 ============
 
-The application is a desktop-based system that provides users with the ability to manage and process fisheye images. The purpose of the testing is to ensure that the application is functioning correctly and meets the expectations of the users. This involves testing the application to ensure that it meets requirements and that it is secure, reliable, and efficient. The testing also checks for any potential bugs and flaws that could affect the performance of the application.
+    The application is a desktop-based system that provides users with the ability to manage and process fisheye images. The purpose of the testing is to ensure that the application is functioning correctly and meets the expectations of the users. This involves testing the application to ensure that it meets requirements and that it is secure, reliable, and efficient. The testing also checks for any potential bugs and flaws that could affect the performance of the application.
 
-.. figure:: assets/
+.. figure:: assets/1g.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  Menu bar
+   Menu bar
 
-.. figure:: assets/
+.. figure:: assets/2g.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  Fisheye Image View
+   Fisheye Image View
 
-.. figure:: assets/
+.. figure:: assets/3g.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  anypoint view
+   Anypoint view
 
-.. figure:: assets/
+.. figure:: assets/4g.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  Panorama view
+   Panorama view
 
-.. figure:: assets/
+.. figure:: assets/5g.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  camera parameters
+   camera parameters
 
-.. figure:: assets/
+.. figure:: assets/6g.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  video player
+   video player
 
 Appendix Issue
 ==============
 
 - Pybind11 -> sudo apt-get install python3.8-dev (Depending on the python version)
 
-.. figure:: assets/
-   :scale: 80 %
+.. figure:: assets/7g.png
+   :scale: 120 %
    :alt: alternate text
    :align: center
 
-  issue
+   Issue
 
 - Pdf -> documents
 

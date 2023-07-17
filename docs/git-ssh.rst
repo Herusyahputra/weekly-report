@@ -7,27 +7,27 @@ Configuration SSH
 SSH configuration for Git involves setting up SSH keys and configuring the SSH client to establish secure connections with Git servers.
 It enables users to authenticate themselves securely without the need for passwords, providing a seamless and efficient workflow. Follow this steps:
 
-- Open terminal on computer​
+- Open terminal on computer
 
 - Typing “ssh-keygen –t rsa” -> typing y and enter to continue.
 
-.. figure:: assets/
+.. figure:: assets/1a.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
    configuration ssh-keygen
 
-- Typing “cat .ssh/id_rsa.pub” -> enter to continue.​
+- Typing “cat .ssh/id_rsa.pub” -> enter to continue.
 
 - Showing the ssh-code
 
-.. figure:: assets/
+.. figure:: assets/2a.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  SSH-Code
+   SSH-Code
 
 Open Setting Your GitHub
 ========================
@@ -36,23 +36,23 @@ Open Setting Your GitHub
 
 - Click “Setting” to open
 
-.. figure:: assets/
+.. figure:: assets/3a.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  setting configuration
+   setting configuration
 
 - Find SSH and GPG Key
 
 - Click “New SSH Key” to create
 
-.. figure:: assets/
+.. figure:: assets/4a.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  Create SSH
+   Create SSH
 
 Create SSH Keys
 ================
@@ -63,22 +63,15 @@ Create SSH Keys
 
 - Click add SSH Key
 
-.. figure:: assets/
+.. figure:: assets/5a.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  SSH Keygen
+   SSH Keygen
 
 Clone Repository
 =================
-
-.. figure:: assets/
-   :scale: 80 %
-   :alt: alternate text
-   :align: center
-
-  SSH Keygen
 
 - Open Repository “moil-template-apps”
 
@@ -86,23 +79,23 @@ Clone Repository
 
 - Copy link to clone
 
-.. figure:: assets/
+.. figure:: assets/6a.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  copy link SSH
+   copy link SSH
 
 Open terminal on computer
 
 Typing “git clone –recurse-submodule “link_repository” --branch=v4.0 ssh. -> enter
 
-.. figure:: assets/
+.. figure:: assets/7a.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  command using "-recurse-submodule"
+   command using "-recurse-submodule"
 
 Check result clone in dir
 ==========================
@@ -111,12 +104,12 @@ Check result clone in dir
 
 - Check submodule
 
-.. figure:: assets/
+.. figure:: assets/8a.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  Repository/submodule
+   Repository/submodule
 
 
 

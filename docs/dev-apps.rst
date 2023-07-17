@@ -4,11 +4,7 @@ Develop applications
 Design User Interface
 ======================
 
-.. raw:: html
-
-   <p style="text-align: justify;">
-
-    To design user interface, following this steps.</p>
+    To design user interface, following this steps.
 
 - Install Qt Designer
 
@@ -24,7 +20,7 @@ Design User Interface
 
     $ sudo apt-get install qt5-doc qtbase5-examples qtbase5-doc-html
 
-.. figure:: assets/
+.. figure:: assets/1c.png
    :scale: 80 %
    :alt: alternate text
    :align: center
@@ -33,19 +29,19 @@ Design User Interface
 
 - Select Widget type -> create
 
-.. figure:: assets/
+.. figure:: assets/2c.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  create widget
+   create widget
 
-.. figure:: assets/
+.. figure:: assets/3c.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
-  design user interface in Qt
+   design user interface in Qt
 
 Add an Icon on Moilapp Plugin
 ==============================
@@ -56,36 +52,22 @@ Add an Icon on Moilapp Plugin
 
 - In Class “Hello World(PluginInterface)” -> Create function to add Icon
 
-.. figure:: assets/
-   :scale: 80 %
+.. figure:: assets/4c.png
+   :scale: 75 %
    :alt: alternate text
    :align: center
 
-  import package & class controller
-
-.. figure:: assets/
-   :scale: 80 %
-   :alt: alternate text
-   :align: center
-
-  directory hello_world apps
-
-.. figure:: assets/
-   :scale: 80 %
-   :alt: alternate text
-   :align: center
-
-  function add icon in apps
+   import package & class controller
 
 Show Hello World application
 =============================
 
-.. figure:: assets/
-   :scale: 80 %
+.. figure:: assets/5c.png
+   :scale: 70 %
    :alt: alternate text
    :align: center
 
-  hello world apps
+   hello world apps
 
 
 

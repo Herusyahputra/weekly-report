@@ -8,8 +8,8 @@ Open McutOIL GitHub
 
 - Do fork in repository to your GitHub
 
-.. figure:: assets/
-   :scale: 80 %
+.. figure:: assets/1b.png
+   :scale: 70 %
    :alt: alternate text
    :align: center
 
@@ -19,8 +19,8 @@ Open McutOIL GitHub
 
 - Uncheck the main branch only
 
-.. figure:: assets/
-   :scale: 80 %
+.. figure:: assets/2b.png
+   :scale: 70 %
    :alt: alternate text
    :align: center
 
@@ -30,7 +30,7 @@ Open McutOIL GitHub
 
 - This applications requirements Python 3.9 (PyQt6)
 
-.. figure:: assets/
+.. figure:: assets/3b.png
    :scale: 80 %
    :alt: alternate text
    :align: center
@@ -41,7 +41,7 @@ Open McutOIL GitHub
 
 - git clone --recurse-submodules https://github.com/Herusyahputra/moil-dash-camera.git
 
-.. figure:: assets/
+.. figure:: assets/4b.png
    :scale: 80 %
    :alt: alternate text
    :align: center
@@ -49,13 +49,13 @@ Open McutOIL GitHub
    Clone repository from your GitHub on terminal
 
 Open PyCharm
-===================
+==============
 
 - Choose open to open folder repository
 
 - Select folder repository -> Click Ok to Open
 
-.. figure:: assets/
+.. figure:: assets/5b.png
    :scale: 80 %
    :alt: alternate text
    :align: center
@@ -67,7 +67,7 @@ Create Virtual Environment
 
 follow this command for create virtualenv
 
-.. figure:: assets/
+.. figure:: assets/6b.png
    :scale: 80 %
    :alt: alternate text
    :align: center
@@ -87,7 +87,7 @@ Follow this steps for setting
 
      - See working directory -> Ok
 
-.. figure:: assets/
+.. figure:: assets/7b.png
    :scale: 80 %
    :alt: alternate text
    :align: center
@@ -99,12 +99,21 @@ Run Program
 
 User interface application->Select menu setting to open configuration
 
-.. figure:: assets/
+.. figure:: assets/8b.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
    showing Application
 
+user operation
+===============
+
+.. figure:: assets/9b.png
+   :scale: 80 %
+   :alt: alternate text
+   :align: center
+
+   User operation apps
 
 

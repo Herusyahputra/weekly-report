@@ -17,8 +17,8 @@ Docsting Format
 
 - See image beside to make sure you're use the same format.
 
-.. figure:: assets/
-   :scale: 80 %
+.. figure:: assets/1e.png
+   :scale: 90 %
    :alt: alternate text
    :align: center
 
@@ -33,8 +33,8 @@ Install sphinx from pypi distribution using command:
 
     $ pip install -U sphinx sphinx-rtd-theme
 
-.. figure:: assets/
-   :scale: 80 %
+.. figure:: assets/2e.png
+   :scale: 75 %
    :alt: alternate text
    :align: center
 
@@ -61,15 +61,15 @@ Getting started
 
     $ sphinx-quickstart
 
-.. figure:: assets/
+.. figure:: assets/3e.png
    :scale: 80 %
    :alt: alternate text
    :align: center
 
    command create sphinx-quickstart
 
-.. figure:: assets/
-   :scale: 80 %
+.. figure:: assets/4e.png
+   :scale: 90 %
    :alt: alternate text
    :align: center
 
@@ -78,7 +78,9 @@ Getting started
 Configuration File
 ===================
 
-- extensions =[
+.. code-block:: bash
+
+    extensions =[
             "sphinx.ext.autodoc",
             "sphinx.ext.viewcode",
             "sphinx.ext.napoleon",
@@ -94,7 +96,7 @@ You have to modify the config.py inside the folder source. Then follow the modic
 
 - Change the theme
 
-.. figure:: assets/
+.. figure:: assets/5e.png
    :scale: 80 %
    :alt: alternate text
    :align: center
@@ -115,7 +117,7 @@ You have to modify the config.py inside the folder source. Then follow the modic
     autodoc_default_options = {
         'undoc-members': True,}
 
-.. figure:: assets/
+.. figure:: assets/6e.png
    :scale: 80 %
    :alt: alternate text
    :align: center
@@ -130,7 +132,7 @@ Modify index.rst file
 - And then, suppose you want to generate a path for your code, you can type this command:​
 
 
-.. figure:: assets/
+.. figure:: assets/7e.png
    :scale: 80 %
    :alt: alternate text
    :align: center
@@ -148,7 +150,7 @@ Once's you finish the configuration, the you will be able to build the html page
 
      $ make clean (Revome cached)
 
-.. figure:: assets/
+.. figure:: assets/8e.png
    :scale: 80 %
    :alt: alternate text
    :align: center
@@ -164,7 +166,7 @@ The html file will be stored inside folder build/html/index.html Open it using y
 
    $ google-chrome build/html/index.html
 
-.. figure:: assets/
+.. figure:: assets/9e.png
    :scale: 80 %
    :alt: alternate text
    :align: center
